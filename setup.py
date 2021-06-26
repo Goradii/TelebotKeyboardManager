@@ -3,13 +3,10 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-with open("requirements.txt", "r", encoding="utf-8") as req:
-    requires = req.read().split('\n')
-
 setuptools.setup(
     name="TelegramBotKeyboardManager",
     packages=["TelegramBotKeyboardManager"],
-    version="0.1.1",
+    version="0.0.2",
     author="Radin Gleb",
     author_email="gleb.rad+pip@gmail.com",
     description="This package help you to organise I/O In pyTelegramBotAPI",
@@ -19,7 +16,7 @@ setuptools.setup(
     project_urls={
         "Bug Tracker": "https://github.com/Goradii/TelebotKeyboardManager/issues",
     },
-    install_requires=requires,
+    install_requires=['pyTelegramBotAPI'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "Development Status :: 4 - Beta",
