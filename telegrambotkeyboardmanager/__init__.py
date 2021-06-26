@@ -1,1 +1,1 @@
-from telegrambotkeyboardmanager.TeleBotKM import *
+from .TeleBotKM import *
