@@ -1,4 +1,4 @@
-from telebotkeyboardmanager.TeleBotKM import *
+from telegrambotkeyboardmanager.TeleBotKM import *
 import telebot
 
 

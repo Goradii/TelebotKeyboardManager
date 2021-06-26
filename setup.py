@@ -8,7 +8,8 @@ with open("requirements.txt", "r", encoding="utf-8") as req:
 
 setuptools.setup(
     name="TelegramBotKeyboardManager",
-    version="0.1.0",
+    packages=["TelegramBotKeyboardManager"],
+    version="0.1.1",
     author="Radin Gleb",
     author_email="gleb.rad+pip@gmail.com",
     description="This package help you to organise I/O In pyTelegramBotAPI",
